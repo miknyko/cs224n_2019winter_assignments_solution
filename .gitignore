@@ -130,9 +130,9 @@ dmypy.json
 
 # cs224n
 
-*/.vscode
-*/.ipynb_checkpoints
-*/__pycache__
+**/.vscode
+**/.ipynb_checkpoints
+**/__pycache__
 *.rar
 *.npy
 *.pickle
