@@ -128,5 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-*/.vscode
-*/.ipynb_checkpoints
+# cs224n
+
+**/.vscode
+**/.ipynb_checkpoints
+**/__pycache__
+*.rar
+*.npy
+*.pickle
+a3/data
