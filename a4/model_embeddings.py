@@ -39,7 +39,7 @@ class ModelEmbeddings(nn.Module):
         ###     self.target (Embedding Layer for target langauge)
 
         self.source = nn.Embedding(len(vocab.src),embed_size,padding_idx = src_pad_token_idx)
-        self.source = nn.Embedding(len(vocab.tgt),embed_size,padding_idx = tgt_pad_token_idx)
+        self.target = nn.Embedding(len(vocab.tgt),embed_size,padding_idx = tgt_pad_token_idx)
         ###
         ### Note:
         ###     1. `vocab` object contains two vocabularies:

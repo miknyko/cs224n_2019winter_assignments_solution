@@ -194,7 +194,7 @@ def main():
 
     # Check Python & PyTorch Versions
     assert (sys.version_info >= (3, 5)), "Please update your installation of Python to version >= 3.5"
-    assert(torch.__version__ == "1.0.0"), "Please update your installation of PyTorch. You have {} and you should have version 1.0.0".format(torch.__version__)
+    # assert(torch.__version__ == "1.0.0"), "Please update your installation of PyTorch. You have {} and you should have version 1.0.0".format(torch.__version__)
 
     # Seed the Random Number Generators
     seed = 1234
@@ -219,7 +219,7 @@ def main():
         hidden_size=HIDDEN_SIZE,
         dropout_rate=DROPOUT_RATE,
         vocab=vocab)
-
+    
     if args['1d']:
         question_1d_sanity_check(model, src_sents, tgt_sents, vocab)
     elif args['1e']:
