@@ -3,3 +3,5 @@
 *.html linguist-language=Python
 *.md linguist-language=Python
 *.npy linguist-language=Python
+*.es linguist-language=Python
+*.en linguist-language=Python
